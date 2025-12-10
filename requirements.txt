@@ -1,0 +1,20 @@
+# KarokeLite Mini Synthesizer - Dependencies
+# Python 3.10+ required
+
+# Core dependencies
+numpy>=1.20.0
+
+# Performance optimization (JIT compilation for audio processing)
+numba>=0.58.0
+
+# Audio I/O (optional - for real audio output)
+sounddevice>=0.4.0
+
+# Testing dependencies (development only)
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-mock>=3.10.0
+
+# GUI dependencies
+# tkinter is included with Python standard library
+# No additional GUI packages required
